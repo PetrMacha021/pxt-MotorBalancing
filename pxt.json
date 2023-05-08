@@ -5,12 +5,12 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-magicbit-pca9685": "github:TomasKazda/pxt-magicbit-pca9685#31053e8d1380ca67c69e729c607b8c68fd4357a5"
     },
     "files": [
-        "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "MotorBalancing.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +23,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
