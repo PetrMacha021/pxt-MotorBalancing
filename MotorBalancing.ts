@@ -12,7 +12,7 @@ class MotorBalancing {
     leftMotor: PCAmotor.Motors;
     rightMotor: PCAmotor.Motors;
 
-    constructor(leftMotor: PCAmotor.Motors, rightMotor: PCAmotor.Motors, leftSensor: DigitalPin, rightSensor: DigitalPin, holes: number) {
+    constructor(leftMotor: PCAmotor.Motors, rightMotor: PCAmotor.Motors, leftSensor: DigitalPin, rightSensor: DigitalPin) {
         this.leftMotor = leftMotor;
         this.rightMotor = rightMotor;
         pins.setEvents(leftSensor, PinEventType.Edge);
